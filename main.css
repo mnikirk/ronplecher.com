@@ -1,0 +1,111 @@
+/*
+    Colors
+    #0882d7 - blue
+    #ddd - light gray
+    #343f53 - dark gray
+    #1d242f - darker gray
+*/
+
+/* Text */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+a, a:active, a:hover, a:visited {
+    color: #0882d7;
+}
+
+footer a, footer a:hover, footer a:active, footer a:visited {
+    color: #ddd;
+    text-decoration: underline;
+}
+/*********************/
+
+
+/* Background & color schemes */
+.bg-dgray-w {
+    background-color: #343f53;
+    color: #fff;
+}
+
+.bg-dgray-g {
+    background-color: #343f53;
+    color: #ddd;
+}
+
+.bg-lgray-dg {
+    background-color: #ddd;
+    color: #343f53
+}
+
+.bg-blue-w {
+    background-color: #0882d7;
+    color: #fff;
+}
+
+.bg-white-g {
+    background-color: #fff;
+    color: #1d242f;
+}
+/*********************/
+
+
+/* navbar */
+.nav a {
+    color:#fff;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0;
+    margin: 1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-bottom {
+    border-bottom: 2px solid #0882d7;
+}
+/*********************/
+
+
+/* Images */
+.headshot {
+    width: 475px;
+    height: 100%;
+}
+
+.small {
+    height: 175px;
+}
+
+.award {
+    width: 150px;
+    min-width: 150px;
+    margin: 1.5rem;
+}
+/*********************/
+
+
+.headerline {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    border-bottom: 2px #343f53 solid;
+    margin-bottom: 1.5rem;
+}
+
+.text-heading {
+    text-align: left;
+    border-bottom: 5px #0882d7 solid;
+    width: fit-content;
+    margin-bottom: 1rem;;
+}
